@@ -1,15 +1,12 @@
-import './App.css'
+import "./App.css";
+import HelloMessege from "./components/HelloMessege";
 
 function App() {
-  
-
   return (
     <>
-      <div>
-       <h1>Estado Inicial</h1>
-      </div>
+      <HelloMessege titleNew="Hello my Friend!"></HelloMessege>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
